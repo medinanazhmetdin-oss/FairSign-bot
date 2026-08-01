@@ -23,7 +23,7 @@ if not TELEGRAM_TOKEN:
 if not GEMINI_API_KEY:
     raise RuntimeError("Не задана переменная GEMINI_API_KEY (проверь .env)")
 
-GEMINGEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 MAX_CONTRACT_CHARS = 15000
 
